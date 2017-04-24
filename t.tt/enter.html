@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			body{
+				background: #D5010F;
+			}
+			.wrap{
+				width: 1300px;
+				border: 1px solid white;
+				height: 550px;
+				margin: 50px auto;
+				text-align: center;
+				box-sizing: border-box;
+				padding-top: 50px;
+				position: relative;
+			}
+			.wrap p{
+				font-size: 30px;
+				color: white;
+			}
+			.wrap img{
+				height: 150px;
+			}
+			.jdt{
+				width: 150px;
+				height: 15px;
+				/*background: white;*/
+				/*display: inline-block;*/
+				position: absolute;
+				left: 50%;
+				margin-left: -75px;
+				bottom: 50px;
+				border-radius: 15px;
+				overflow: hidden;
+			}
+			.jdt_inner{
+				height: 15px;
+				width: 0;
+				background: white;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<p>我们眼中</p>
+			<p>全球第二好用的智能手机是怎样的</p>
+			<p>？</p>
+			<img src="img/logo.png" /> 
+			<div class="jdt">
+				<div class="jdt_inner"></div>
+			</div>
+		</div>
+		<script>
+			var jInner=document.getElementsByClassName("jdt_inner")[0];
+			var timer=null;
+			var l=0;
+			timer=setInterval(function(){
+				if(l<150){
+					jInner.style.width=l+"px";
+				}else{
+					clearInterval(timer);
+					location.assign("t.tthome.html");
+				}
+				l+=1;
+			},50)
+			
+			
+		</script>
+	</body>
+</html>

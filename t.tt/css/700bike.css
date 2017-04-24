@@ -1,0 +1,259 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.section1 .top{
+	width:1200px;
+	height: 80px;
+	margin: 0 auto;
+	/*background: red;*/
+}
+#fullpage .top{
+	vertical-align: top;
+	overflow: hidden;
+}
+.logo{
+	width: 58px;
+	height: 80px;
+	float: left;
+	background-image: url(../img/700bike/logo.png);
+	margin-top: 20px;
+}
+.menu li{
+	float: left;
+	line-height: 80px;
+	padding: 0 20px;
+}
+.menu{
+	margin-left: 30px;
+	height: 80px;
+	float: left;
+}
+.login{
+	float: right;
+	height: 80px;
+}
+.login li{
+	float: left;
+	line-height: 80px;
+	padding: 0 20px;
+}
+.top a{
+	color: black;
+	
+}
+.top li:hover a{
+	color: #FCC907;
+}
+.section1{
+	width: 1200px;
+	margin: 0 auto;
+	height: 100%;
+}
+.sec1left{
+	float: left;
+	padding: 50px;
+	line-height: 50px;
+}
+.buyBtn{
+	width: 100px;
+	height: 30px;
+	border-radius: 30px;
+	background:#FFCB05 ;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 20px;
+	font-size: small;
+}
+.banner_wrap{
+	float: left;
+	height: 500px;
+	width: 750px;
+	position: relative;
+}
+.banner_wrap img{
+	position: absolute;
+	height: 500px;
+	display: none;
+}
+.dot{
+	height: 15px;
+	position: absolute;
+	z-index: 999;
+	bottom: 20px;
+	left: 330px;
+}
+.dot li{
+	float: left;
+	height: 15px;
+	width: 15px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	margin:0 5px;
+	cursor: pointer;
+}
+.active1{
+	box-shadow: 0 3px 8px black;
+}
+/*------------section2-------------*/
+.section2{
+	width: 1200px;
+	margin: 0 auto;
+	height: 100%;
+	position: relative;
+}
+.text{
+	position: absolute;
+	text-align: center;
+	background: white;
+	top: 50px;
+	display: none;
+	/*line-height: 20px;*/
+}
+.dizuo{
+	width: 100%;
+	height: 300px;
+	background-image: url(../img/700bike/bb1.png);
+	position:absolute;
+	bottom: 0;
+	background-position: center;
+}
+.dizuo ul{
+	bottom: 41px;
+	left: 479px;
+	position: absolute;
+}
+.dizuo ul li{
+	float: left;
+	margin: 20px;
+	cursor: pointer;
+	
+}
+.lingjian img{
+	height: 150px;
+	position: absolute;
+	display: none;
+}
+.lingjian{
+	width: 305px;
+	height: 150px;
+	position: absolute;
+	bottom: 250px;
+	left: 455px;
+}
+.Right{
+	background: white;
+	color: red;
+}
+.section3{
+	width: 1200px;
+	height: 100%;
+	margin:0 auto;
+	text-align: center;
+}
+.section3_head{
+	margin-top: 20px;
+}
+.section3_head p{
+	font-size: xx-large;
+}
+.section3_head span{
+	border-bottom: 1px solid gray;
+	width: 100px;
+	height: 1px;
+	display: inline-block;
+}
+.section3_body ul li{
+	height: 400px;
+	width: 380px;
+	/*background: red;*/
+	margin-right:30px ;
+	float: left;
+}
+.section3_body ul{
+	width: 1230px;
+}
+.section3_body{
+	overflow: hidden;
+	margin-top: 30px;
+}
+.img{
+	width: 380px;
+	height: 200px;
+	background-position: center;
+	background-size: 100%;
+	/*background-repeat: no-repeat;*/
+}
+.img1{
+	background-image: url(../img/700bike/h1.png);
+}
+.img2{
+	background-image: url(../img/700bike/h2.png);
+}
+.img3{
+	background-image: url(../img/700bike/h3.png);
+}
+.section3_body ul li p{
+	font-size: small;
+	color: gray;
+	text-align: left;
+	line-height: 30px;
+}
+.section3_body ul li h3{
+	margin:20px 0;
+	text-align: left;
+}
+/*----------section4------------*/
+.section4{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	height: 100%;
+}
+.zhengche{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	left: 50%;
+	margin-left: -250px;
+	background-image: url(../img/700bike/b1.png);
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	top: -80px;
+}
+.bigbang{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: 100px;
+	background-image: url(../img/700bike/bigbang.png);
+	background-size: 10%;
+	background-position: center;
+	background-repeat: no-repeat;
+	left: 50%;
+	margin-left: -250px;
+}
+.peijian{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/700bike/lingjian.png);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.txt{
+	width: 500px;
+	position: absolute;
+	left: 50%;
+	margin-left: -250px;
+	bottom: 50px;
+	text-align: center;
+	font-size: xx-large;
+}

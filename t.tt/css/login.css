@@ -1,0 +1,97 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: url(../img/bg.png);
+}
+.login_wrap{
+	width: 500px;
+	height: 500px;
+	/*border: 1px solid darkgray;*/
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0 3px 20px #cfcccc;
+	margin: 50px auto;
+	text-align: center;
+	padding: 20px 30px;
+	box-sizing: border-box;
+}
+.logo{
+	text-align: center;
+	/*padding-top: 20px;*/
+}
+.txt{
+	/*font-weight: bold;*/
+	font-size: 20px;
+}
+form input{
+	width: 100%;
+	height: 50px;
+	text-indent: 15px;
+	color: lightgray;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	margin-top: 20px;
+	box-shadow: -1px 2px 5px lightgray inset;
+}
+.register{
+	font-size: small;
+	color: blue;
+	text-align: right;
+	cursor: pointer;
+	margin-top: 15px;
+	width: 120px;
+	float: right;
+}
+.register-wrap{
+	height: 50px;
+}
+.btn{
+	height: 50px;
+	width: 100%;
+	background: #648DE0;
+	border: 1px solid gray;
+	border-radius: 10px;
+	/*margin-top: 50px;*/
+	clear: both;
+	color: white;
+	font-size: 18px;
+	cursor: pointer;
+}
+.bq p{
+	text-align: center;
+	font-size: 12px;
+	color: grey;
+}
+form{
+	position: relative;
+}
+form div{
+	position: absolute;
+	background: #D16D62;
+	width: 130px;
+	/*height: 20px;*/
+	box-sizing: border-box;
+	border-radius: 5px;
+	font-size: 12px;
+	color: white;
+	padding: 5px;
+	display: none;
+}
+.userNameWrong{
+	top: 33px;
+	right: 10px;
+}
+.passWordWrong{
+	top: 106px;
+	right: 10px;
+	width: 70px;
+}
+.m1{
+	display: inline-block;
+	position: absolute;
+	bottom: 15px;
+	color: lightgray;
+	left: 15px;
+}

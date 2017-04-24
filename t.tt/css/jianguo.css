@@ -1,0 +1,329 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+#top{
+	height: 100px;
+	width: 100%;
+	background: #000;
+}
+#top .nav{
+	height: 100px;
+	width: 1220px;
+	margin: 0 auto;
+	line-height: 100px;
+}
+.nav .nav_right ul li{
+	float: left;
+	padding: 0 25px;
+}
+.nav .nav_right ul li a:hover{
+	color: white;
+}
+.nav .nav_right{
+	float: right;
+	position: relative;
+	height: 100px;
+}
+.nav .nav_right ul li a{
+	color: #C8C8C8;
+	font-size: 14px;
+}
+.nav .nav_right ul{
+	display: inline-block;
+}
+#top .nav img{
+	position: relative;
+	top: 20px;
+}
+
+.persnal_center{
+	float: right;
+	color:#C8C8C8 ;
+	padding: 0 25px;
+	font-size: 24px;
+}
+.shopping_car{
+	float: right;
+	color:#C8C8C8 ;
+	padding:0 25px;
+	
+	font-size: 24px;
+	
+}
+.shopping_car_num{
+	height: 24px;
+	width: 24px;
+	background: gray;
+	display: inline-block;
+	color: white;
+	position: absolute;
+	/*margin-top: 20px;*/
+	top: 39px;
+	line-height: 24px;
+	text-align: center;
+	right: 0;
+	border-radius: 24px;
+}
+.nav_sub{
+	height: 90px;
+	width:100% ;
+}
+.nav_container{
+	height: 90px;
+	line-height: 90px;
+	width: 1220px;
+	margin: 0 auto;
+	overflow: hidden;
+	border-bottom: 1px solid lightgray;
+}
+.nav_container ul li{
+	float: left;
+	padding: 0 10px;
+}
+.nav_container ul{
+	height: 90px;
+}
+.nav_container ul li a{
+	font-size: 14px;
+	color: gray;
+}
+body{
+	background: white;
+}
+.nav_container ul li a:hover{
+	color: dodgerblue;
+}
+.phone_card{
+	width: 1220px;
+	height: 700px;
+	margin: 0 auto;
+	border-bottom: 1px solid lightgray;
+}
+.phone_card img{
+	position: absolute;
+	margin-top: 1px;
+}
+.phone_card>div{
+	float: left;
+}
+.phone_massage{
+	width: 420px;
+	height: 700px;
+	/*background: red;*/
+}
+.phone_img{
+	overflow: hidden;
+	height: 600px;
+	width:800px;
+}
+.phone_color ul li{
+	float: left;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	background-image: url(../img/jg/tmcolor.png);
+	margin-right: 20px;
+	cursor: pointer;
+	opacity: 0.6;
+}
+.phone_massage .phone_describe{
+	margin-top: 20px;
+	color: gray;
+}
+.phone_massage hr{
+	border: 0;
+	height: 1px;
+	background: lightgray;
+	margin: 20px 0;
+}
+.phone_choose{
+	margin: 20px 0;
+	color: gray;
+}
+.choose_btn{
+	display: inline-block;
+	width: 120px;
+	height: 50px;
+	border-radius: 5px;
+	border:1px solid lightgray;
+	color: gray;
+	line-height: 50px;
+	text-align: center;
+}
+.phone_color{
+	height: 50px;
+}
+.phone_massage h1{
+	font-weight: normal;
+	padding-top: 30px;
+}
+.kd{
+	font-size: small;
+	color: gray;
+}
+.jg_describe{
+	width: 100%;
+	/*height: 2000px;*/
+	/*border-top: 1px solid gray;*/
+}
+.descirbe_content{
+	width: 1220px;
+	margin: 0 auto;
+}
+.descirbe_content_left div{
+	width: 300px;
+	/*background: greenyellow;*/
+	border-top: 1px solid lightgray;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	height: 250px;
+}
+.descirbe_content_left{
+	float: left;
+}
+.descirbe_content_right{
+	float: right;
+}
+.descirbe_content_right>div{
+	padding-top: 30px;
+	/*background: greenyellow;*/
+	border-top: 1px solid lightgray;
+	padding-bottom: 50px;
+	height: 250px;
+}
+.descirbe_content h2{
+	margin:30px 0;
+	font-weight: normal;
+}
+.section p{
+	line-height: 50px;
+	color: #666;
+	text-indent: 20px;
+}
+.phone_move{
+		width: 1366px;
+		margin: 100px auto;
+		height: 400px;
+		box-sizing: border-box;
+		/*background: red;*/
+		overflow: hidden;
+}
+.phone_move ul li{
+	float:left;
+	/*padding-top: 200px;*/
+	/*position: relative;
+	top: 200px;*/
+	/*height: 300px;*/
+}
+.clear{
+	clear: both;
+}
+.phone_move img{
+	width: 192px;
+}
+/*-----------footer--------------*/ 
+.footer{
+	background: #FAFAFA;
+	height: 370px;
+	width: 100%;
+	/*margin-top: 50px;*/
+}
+.footer_content{
+	width: 1220px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+.footer_content table tr td{
+	width: 120px;
+	padding: 5px;
+	font-size: 14px;
+}
+.footer_content table tr th{
+	width: 100px;
+	padding: 5px;
+	color: dimgray;
+	font-size: 16px;
+	text-align: left;
+}
+.footer_content table tr td a{
+	color: darkgray;
+}
+.footer_content table{
+	display: inline-block;
+}
+.contact{
+	float: right;
+	text-align: right;
+}
+.phone400{
+	font-size: 30px;
+	font-weight:normal;
+	color: gray;
+}
+.runtime{
+	font-size: 14px;
+	color: lightgray;
+	margin-top: 15px;
+}
+.contact button{
+	width: 100px;
+	height: 30px;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	color: blue;
+	cursor: pointer;
+	margin-top: 15px;
+}
+.footer hr{
+	height: 1px;
+	background: lightgray;
+	border: 0;
+	width: 100%;
+	margin-top: 20px;
+}
+.banquan{
+	font-size: 12px;
+	color: darkgray;
+	margin-top: 30px;
+}
+.beian{
+	font-size: 12px;
+	margin-top: 10px;
+}
+.beian a{
+	color: lightgray;
+	margin-right: 20px;
+	
+}
+/*---页底部加入购物车栏---*/
+.addcar_wrap{
+	height: 80px;
+	width: 100%;
+	background: #FAFAFA;
+	border: 1px solid lightgray;
+	z-index: 9999;
+}
+.addcar{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 10px 0;
+	color: gray;
+	font-size: small;
+}
+.addcar_left{
+	float: left;
+}
+.addcar_right{
+	float: right;
+}
+.shopping_car{
+	cursor: pointer;
+}
